@@ -1801,6 +1801,13 @@ ansi-styles@^4.1.0:
     "@types/color-name" "^1.1.1"
     color-convert "^2.0.1"
 
+antd-dayjs-webpack-plugin@^0.0.8:
+  version "0.0.8"
+  resolved "https://registry.npm.taobao.org/antd-dayjs-webpack-plugin/download/antd-dayjs-webpack-plugin-0.0.8.tgz#525b61010df48f09d2a738bef388f6971d94a730"
+  integrity sha1-UlthAQ30jwnSpzi+84j2lx2UpzA=
+  dependencies:
+    dayjs "*"
+
 antd@^3.26.7:
   version "3.26.7"
   resolved "https://registry.npm.taobao.org/antd/download/antd-3.26.7.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fantd%2Fdownload%2Fantd-3.26.7.tgz#271555f4862b747019defb972f70b7dd4015fd3f"
@@ -3463,6 +3470,11 @@ date-now@1.0.1:
   version "1.0.1"
   resolved "https://registry.npm.taobao.org/date-now/download/date-now-1.0.1.tgz#bb7d086438debe4182a485fb3df3fbfb99d6153c"
   integrity sha1-u30IZDjevkGCpIX7PfP7+5nWFTw=
+
+dayjs@*:
+  version "1.8.20"
+  resolved "https://registry.npm.taobao.org/dayjs/download/dayjs-1.8.20.tgz#724a5cb6ad1f6fc066b0bd9a800dedcc7886f19e"
+  integrity sha1-ckpctq0fb8BmsL2agA3tzHiG8Z4=
 
 debounce@1.0.0:
   version "1.0.0"
