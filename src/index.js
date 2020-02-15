@@ -43,7 +43,7 @@ class GithubLink extends React.Component {
     render() {
         return (
             <div className="github">
-                <a href="http://www.baidu.com">
+                <a href="https://github.com/igzhang/json_path">
                     <AiOutlineGithub />
                 </a>
             </div>
