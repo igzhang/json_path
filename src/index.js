@@ -85,8 +85,9 @@ class JsonInput extends React.Component {
 
     onChange = (e) => {
         let json_object;
+        let json_str = e.target.value.replace(/\'/g, '\"');
         try {
-            json_object = JSON.parse(e.target.value);
+            json_object = JSON.parse(json_str);
         } catch(err) {
             json_object = err.message;
         }
