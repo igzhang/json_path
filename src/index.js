@@ -84,14 +84,13 @@ class JsonContent extends React.Component {
 class JsonInput extends React.Component {
 
     onChange = (e) => {
-        let json_object;
-        let json_str = e.target.value.replace(/\'/g, '\"');
+        let _nocoder;
         try {
-            json_object = JSON.parse(json_str);
-        } catch(err) {
-            json_object = err.message;
+            eval('_nocoder=' + e.target.value);
+        } catch (error) {
+            _nocoder = error.message;
         }
-        this.props.onInputChange(json_object);
+        this.props.onInputChange(_nocoder);
     }
 
     render() {
